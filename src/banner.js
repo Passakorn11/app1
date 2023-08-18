@@ -19,7 +19,7 @@ export default function Banner(){
             break
         case 3:
             banner ='./banners/node.jpg'
-            url ='https://www.nodejs.com'
+            url ='https://www.nodejs.org'
             break
         default:break
     }

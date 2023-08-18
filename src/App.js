@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Calculator2 } from './calculator';
 import Banner from './banner';
 /*import {Header,Content,Footer}from'./func-componanents'
 
@@ -31,5 +31,5 @@ function App() {
 }*/
 
 export default function App(){
-  return<Banner/>
+  return<Calculator2/>
 }

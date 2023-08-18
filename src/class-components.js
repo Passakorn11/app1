@@ -12,7 +12,16 @@ export default class Caledar extends Component{
         const year = date.getFullYear()+543
         return `วัน${weekDay}ที่${day}${month}${year}`
     }
-    render(){
+    /*render(){
         return<div>{this.getDate()}</div>
+    }*/
+    showAlert(msg){
+        alert(msg)
+    }
+    onClickButtonOK=()=>{
+        this.showAlert('Hello')
+    }
+    render(){
+        return<button onClick={this.onClickButtonOK}>OK</button>
     }
 }
