@@ -20,7 +20,7 @@ export function Table(){
             {
                 data.map(item =>{
                     return(
-                        <tr onMouseOver={onMouseOutRow}onMouseOut={onMouseOutRow}>
+                        <tr onMouseOver={onMouseOverRow}onMouseOut={onMouseOutRow}>
                             <td>{item[0]}</td><td>{item[1]}</td>
                         </tr>
                     )
