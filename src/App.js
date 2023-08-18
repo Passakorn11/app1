@@ -1,6 +1,7 @@
 import React from 'react'
 
-import {Header,Content,Footer}from'./func-componanents'
+import Banner from './banner';
+/*import {Header,Content,Footer}from'./func-componanents'
 
 import Caledar from './class-components';
 
@@ -13,7 +14,7 @@ function App(){
     <Footer/>
     </>
   )
-}
+}*/
 /*import './style.css'
 function App() {
   let colors = ['red','green','blue','yellow']
@@ -29,4 +30,6 @@ function App() {
     
 }*/
 
-export default App;
+export default function App(){
+  return<Banner/>
+}
