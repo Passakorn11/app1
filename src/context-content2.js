@@ -6,7 +6,7 @@ export default function Content2(){
     let[user,setUser]= React.userContext(userContext)
 
     const contentStyle ={
-        backgroundColor:'ddd',
+        backgroundColor:'#ddd',
         textAlign:'center',
         margin:10,
         padding:10
