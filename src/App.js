@@ -9,7 +9,7 @@ import Content2 from './context-content2'
   return <MessageBox/>
 }*/
 export default function App(){
-  let[user,setUser]=React.userState('')
+  let[user,setUser]=React.useState('')
   return(
     <userContext.Provider value={[user,setUser]}>
      <Header2/>

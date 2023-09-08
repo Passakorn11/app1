@@ -3,7 +3,7 @@ import { userContext } from "./context";
 
 export default function Content2(){
     
-    let[user,setUser]= React.userContext(userContext)
+    let[user,setUser]= React.useContext(userContext)
 
     const contentStyle ={
         backgroundColor:'#ddd',
