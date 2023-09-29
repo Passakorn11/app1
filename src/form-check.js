@@ -1,6 +1,6 @@
 import React from 'react'
 export default function FormCheck(){
-const switchReq = React.useRef
+const switchReq = React.useRef()
 const styles = ['bold', 'italic', 'underline']
 const sizes = ['small', 'medium', 'large', 'larger']
 let checkedStyles = [] 
